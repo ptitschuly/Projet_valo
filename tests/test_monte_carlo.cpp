@@ -13,10 +13,3 @@ void testMonteCarloPut() {
     std::cout << "Monte Carlo Put Price: " << price << std::endl;
     assert(price > 0);
 }
-
-int main() {
-    testMonteCarloCall();
-    testMonteCarloPut();
-    std::cout << "All Monte Carlo tests passed!" << std::endl;
-    return 0;
-}

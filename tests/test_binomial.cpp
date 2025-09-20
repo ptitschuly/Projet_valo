@@ -13,10 +13,3 @@ void testBinomialPut() {
     std::cout << "Binomial Put Price: " << price << std::endl;
     assert(price > 0);
 }
-
-int main() {
-    testBinomialCall();
-    testBinomialPut();
-    std::cout << "All Binomial tests passed!" << std::endl;
-    return 0;
-}

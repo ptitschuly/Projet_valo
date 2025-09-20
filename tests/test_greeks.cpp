@@ -23,10 +23,3 @@ void testGreeksPut() {
     assert(g.vega > 0);
     assert(g.rho < 0);
 }
-
-int main() {
-    testGreeksCall();
-    testGreeksPut();
-    std::cout << "All Greeks tests passed!" << std::endl;
-    return 0;
-}

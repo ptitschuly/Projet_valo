@@ -1,0 +1,49 @@
+Start testing: Sep 20 00:13 Paris, Madrid (heure d’été)
+----------------------------------------------------------
+1/1 Testing: FinancialTests
+1/1 Test: FinancialTests
+Command: "C:/Users/schut/Documents/Projet_valo/build/tests/financial_tests.exe"
+Directory: C:/Users/schut/Documents/Projet_valo/build/tests
+"FinancialTests" start time: Sep 20 00:13 Paris, Madrid (heure d’été)
+Output:
+----------------------------------------------------------
+=== ExÃ©cution de tous les tests ===
+
+Tests des options...
+European Call Price: 10.4506
+European Put Price: 5.57353
+American Call Price: 8.63346
+American Put Price: 6.96209
+âœ“ Tests options OK
+
+Tests Black-Scholes...
+BS Call Price: 10.4506
+BS Put Price: 5.57353
+Put-Call Parity check: 0
+âœ“ Tests Black-Scholes OK
+
+Tests Binomial...
+Binomial Call Price: 8.63346
+Binomial Put Price: 6.96209
+âœ“ Tests Binomial OK
+
+Tests Monte Carlo...
+Monte Carlo Call Price: 10.2779
+Monte Carlo Put Price: 5.643
+âœ“ Tests Monte Carlo OK
+
+Tests Greeks...
+Delta: 0.636831, Gamma: 0.018762, Theta: -6.41403, Vega: 37.524, Rho: 53.2325
+Delta: -0.363169, Gamma: 0.018762, Theta: -1.65788, Vega: 37.524, Rho: -41.8905
+âœ“ Tests Greeks OK
+
+=== Tous les tests sont passÃ©s ! ===
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"FinancialTests" end time: Sep 20 00:13 Paris, Madrid (heure d’été)
+"FinancialTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 20 00:13 Paris, Madrid (heure d’été)

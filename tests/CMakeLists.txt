@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 # Create test executable
 add_executable(financial_tests
+    test_main.cpp
     test_options.cpp
     test_black_scholes.cpp
     test_binomial.cpp

@@ -30,12 +30,3 @@ void testAmericanPut() {
     std::cout << "American Put Price: " << price << std::endl;
     assert(price > 0);
 }
-
-int main() {
-    testEuropeanCall();
-    testEuropeanPut();
-    testAmericanCall();
-    testAmericanPut();
-    std::cout << "All option tests passed!" << std::endl;
-    return 0;
-}

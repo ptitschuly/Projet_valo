@@ -22,11 +22,3 @@ void testPutCallParity() {
     std::cout << "Put-Call Parity check: " << parity << std::endl;
     assert(abs(parity) < 1e-6);
 }
-
-int main() {
-    testBlackScholesCall();
-    testBlackScholesPut();
-    testPutCallParity();
-    std::cout << "All Black-Scholes tests passed!" << std::endl;
-    return 0;
-}

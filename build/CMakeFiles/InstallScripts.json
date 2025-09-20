@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/schut/Documents/Projet_valo/build/cmake_install.cmake",
+		"C:/Users/schut/Documents/Projet_valo/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
