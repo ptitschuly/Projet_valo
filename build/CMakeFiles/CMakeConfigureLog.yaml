@@ -33,14 +33,15 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
@@ -58,6 +59,8 @@ events:
       - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
       - "C:/Program Files/Git/cmd/mingw32-make.exe.com"
       - "C:/Program Files/Git/cmd/mingw32-make.exe"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe.com"
+      - "C:/Program Files/CMake/bin/mingw32-make.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/mingw32-make.exe.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/mingw32-make.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/mingw32-make.exe.com"
@@ -78,6 +81,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -86,15 +90,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -126,14 +124,15 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/Windows/System32/c++.com"
       - "C:/Windows/System32/c++.exe"
@@ -243,6 +242,24 @@ events:
       - "C:/Program Files/Git/cmd/clang++.com"
       - "C:/Program Files/Git/cmd/clang++.exe"
       - "C:/Program Files/Git/cmd/clang++"
+      - "C:/Program Files/CMake/bin/c++.com"
+      - "C:/Program Files/CMake/bin/c++.exe"
+      - "C:/Program Files/CMake/bin/c++"
+      - "C:/Program Files/CMake/bin/g++.com"
+      - "C:/Program Files/CMake/bin/g++.exe"
+      - "C:/Program Files/CMake/bin/g++"
+      - "C:/Program Files/CMake/bin/cl.com"
+      - "C:/Program Files/CMake/bin/cl.exe"
+      - "C:/Program Files/CMake/bin/cl"
+      - "C:/Program Files/CMake/bin/bcc.com"
+      - "C:/Program Files/CMake/bin/bcc.exe"
+      - "C:/Program Files/CMake/bin/bcc"
+      - "C:/Program Files/CMake/bin/icx.com"
+      - "C:/Program Files/CMake/bin/icx.exe"
+      - "C:/Program Files/CMake/bin/icx"
+      - "C:/Program Files/CMake/bin/clang++.com"
+      - "C:/Program Files/CMake/bin/clang++.exe"
+      - "C:/Program Files/CMake/bin/clang++"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/c++.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/c++.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/c++"
@@ -343,6 +360,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -351,15 +369,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -393,6 +405,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -401,15 +414,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "message-v1"
     backtrace:
@@ -459,13 +466,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ar.com"
     found: "C:/msys64/ucrt64/bin/ar.exe"
@@ -477,6 +485,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -485,15 +494,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -521,13 +524,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ranlib.com"
     found: "C:/msys64/ucrt64/bin/ranlib.exe"
@@ -539,6 +543,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -547,15 +552,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -583,13 +582,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/strip.com"
     found: "C:/msys64/ucrt64/bin/strip.exe"
@@ -601,6 +601,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -609,15 +610,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -645,13 +640,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ld.com"
     found: "C:/msys64/ucrt64/bin/ld.exe"
@@ -663,6 +659,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -671,15 +668,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -707,13 +698,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/nm.com"
     found: "C:/msys64/ucrt64/bin/nm.exe"
@@ -725,6 +717,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -733,15 +726,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -769,13 +756,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objdump.com"
     found: "C:/msys64/ucrt64/bin/objdump.exe"
@@ -787,6 +775,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -795,15 +784,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -831,13 +814,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objcopy.com"
     found: "C:/msys64/ucrt64/bin/objcopy.exe"
@@ -849,6 +833,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -857,15 +842,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -893,13 +872,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/readelf.com"
     found: "C:/msys64/ucrt64/bin/readelf.exe"
@@ -911,6 +891,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -919,15 +900,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -955,13 +930,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/dlltool.com"
     found: "C:/msys64/ucrt64/bin/dlltool.exe"
@@ -973,6 +949,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -981,15 +958,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1017,13 +988,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/addr2line.com"
     found: "C:/msys64/ucrt64/bin/addr2line.exe"
@@ -1035,6 +1007,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1043,15 +1016,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1079,13 +1046,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/tapi.com"
       - "C:/msys64/ucrt64/bin/tapi.exe"
@@ -1108,6 +1076,9 @@ events:
       - "C:/Program Files/Git/cmd/tapi.com"
       - "C:/Program Files/Git/cmd/tapi.exe"
       - "C:/Program Files/Git/cmd/tapi"
+      - "C:/Program Files/CMake/bin/tapi.com"
+      - "C:/Program Files/CMake/bin/tapi.exe"
+      - "C:/Program Files/CMake/bin/tapi"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/tapi.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/tapi.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/tapi"
@@ -1123,12 +1094,12 @@ events:
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
-      - "C:/ProgramData/chocolatey/bin/tapi.com"
-      - "C:/ProgramData/chocolatey/bin/tapi.exe"
-      - "C:/ProgramData/chocolatey/bin/tapi"
-      - "C:/Program Files/CMake/bin/tapi.com"
-      - "C:/Program Files/CMake/bin/tapi.exe"
-      - "C:/Program Files/CMake/bin/tapi"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/tapi.com"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/tapi.exe"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/tapi"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.com"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi.exe"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -1138,6 +1109,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1146,15 +1118,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1185,13 +1151,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.2.exe"
@@ -1214,6 +1181,9 @@ events:
       - "C:/Program Files/Git/cmd/gcc-ar-14.2.com"
       - "C:/Program Files/Git/cmd/gcc-ar-14.2.exe"
       - "C:/Program Files/Git/cmd/gcc-ar-14.2"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.2"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.2.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.2.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.2"
@@ -1229,12 +1199,12 @@ events:
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2.com"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2.exe"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.2"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar-14.2.com"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar-14.2.exe"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar-14.2"
-      - "C:/Program Files/CMake/bin/gcc-ar-14.2.com"
-      - "C:/Program Files/CMake/bin/gcc-ar-14.2.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar-14.2"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar-14.2.com"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar-14.2.exe"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar-14.2"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.com"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2.exe"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-14"
@@ -1256,6 +1226,9 @@ events:
       - "C:/Program Files/Git/cmd/gcc-ar-14.com"
       - "C:/Program Files/Git/cmd/gcc-ar-14.exe"
       - "C:/Program Files/Git/cmd/gcc-ar-14"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-14.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-14"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-14"
@@ -1271,12 +1244,12 @@ events:
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.com"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14.exe"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-14"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar-14.com"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar-14.exe"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar-14"
-      - "C:/Program Files/CMake/bin/gcc-ar-14.com"
-      - "C:/Program Files/CMake/bin/gcc-ar-14.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar-14"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar-14.com"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar-14.exe"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar-14"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.com"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14.exe"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar-14"
       - "C:/msys64/ucrt64/bin/gcc-ar14.com"
       - "C:/msys64/ucrt64/bin/gcc-ar14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar14"
@@ -1298,6 +1271,9 @@ events:
       - "C:/Program Files/Git/cmd/gcc-ar14.com"
       - "C:/Program Files/Git/cmd/gcc-ar14.exe"
       - "C:/Program Files/Git/cmd/gcc-ar14"
+      - "C:/Program Files/CMake/bin/gcc-ar14.com"
+      - "C:/Program Files/CMake/bin/gcc-ar14.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar14"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar14.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar14.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar14"
@@ -1313,12 +1289,12 @@ events:
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14.com"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14.exe"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar14"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar14.com"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar14.exe"
-      - "C:/ProgramData/chocolatey/bin/gcc-ar14"
-      - "C:/Program Files/CMake/bin/gcc-ar14.com"
-      - "C:/Program Files/CMake/bin/gcc-ar14.exe"
-      - "C:/Program Files/CMake/bin/gcc-ar14"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar14.com"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar14.exe"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ar14"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.com"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14.exe"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ar14"
       - "C:/msys64/ucrt64/bin/gcc-ar.com"
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
@@ -1329,6 +1305,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1337,15 +1314,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1376,13 +1347,14 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.2.exe"
@@ -1405,6 +1377,9 @@ events:
       - "C:/Program Files/Git/cmd/gcc-ranlib-14.2.com"
       - "C:/Program Files/Git/cmd/gcc-ranlib-14.2.exe"
       - "C:/Program Files/Git/cmd/gcc-ranlib-14.2"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.2.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.2.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.2"
@@ -1420,12 +1395,12 @@ events:
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2.com"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2.exe"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.2"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-14.2.com"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-14.2.exe"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-14.2"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-14.2"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib-14.2.com"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib-14.2.exe"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib-14.2"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.com"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2.exe"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.2"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-14"
@@ -1447,6 +1422,9 @@ events:
       - "C:/Program Files/Git/cmd/gcc-ranlib-14.com"
       - "C:/Program Files/Git/cmd/gcc-ranlib-14.exe"
       - "C:/Program Files/Git/cmd/gcc-ranlib-14"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-14"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-14"
@@ -1462,12 +1440,12 @@ events:
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.com"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14.exe"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-14"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-14.com"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-14.exe"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-14"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-14.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-14.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib-14"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib-14.com"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib-14.exe"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib-14"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.com"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14.exe"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib-14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib14"
@@ -1489,6 +1467,9 @@ events:
       - "C:/Program Files/Git/cmd/gcc-ranlib14.com"
       - "C:/Program Files/Git/cmd/gcc-ranlib14.exe"
       - "C:/Program Files/Git/cmd/gcc-ranlib14"
+      - "C:/Program Files/CMake/bin/gcc-ranlib14.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib14.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib14"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib14.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib14.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib14"
@@ -1504,12 +1485,12 @@ events:
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14.com"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14.exe"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib14"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib14.com"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib14.exe"
-      - "C:/ProgramData/chocolatey/bin/gcc-ranlib14"
-      - "C:/Program Files/CMake/bin/gcc-ranlib14.com"
-      - "C:/Program Files/CMake/bin/gcc-ranlib14.exe"
-      - "C:/Program Files/CMake/bin/gcc-ranlib14"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib14.com"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib14.exe"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/gcc-ranlib14"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.com"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14.exe"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/gcc-ranlib14"
       - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
@@ -1520,6 +1501,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1528,15 +1510,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
   -
     kind: "find-v1"
     backtrace:
@@ -1566,14 +1542,15 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/"
       - "C:/Users/schut/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/schut/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Users/schut/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/msys64/ucrt64/bin/"
-      - "C:/ProgramData/chocolatey/bin/"
-      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/schut/AppData/Local/Microsoft/WinGet/Packages/MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/llvm-mingw-20250826-ucrt-aarch64/bin/"
+      - "C:/Users/schut/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1605,6 +1582,9 @@ events:
       - "C:/Program Files/Git/cmd/windres.com"
       - "C:/Program Files/Git/cmd/windres.exe"
       - "C:/Program Files/Git/cmd/windres"
+      - "C:/Program Files/CMake/bin/windres.com"
+      - "C:/Program Files/CMake/bin/windres.exe"
+      - "C:/Program Files/CMake/bin/windres"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/windres.com"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/windres.exe"
       - "C:/Users/schut/AppData/Local/Programs/Python/Python313/Scripts/windres"
@@ -1630,6 +1610,7 @@ events:
         - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Windows\\System32\\OpenSSH\\"
         - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1638,15 +1619,9 @@ events:
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Python\\Python313\\Scripts"
         - "C:\\Users\\schut\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\msys64\\ucrt64\\bin"
-        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Users\\schut\\AppData\\Local\\Microsoft\\WinGet\\Packages\\MartinStorsjo.LLVM-MinGW.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe\\llvm-mingw-20250826-ucrt-aarch64\\bin"
         - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:\\Program Files\\CMake\\bin"
+        - "c:\\Users\\schut\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FinancialValuationLib"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1662,8 +1637,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-9kqey8"
-      binary: "C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-9kqey8"
+      source: "C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-5k74t2"
+      binary: "C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-5k74t2"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1673,13 +1648,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-9kqey8'
+        Change Dir: 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-5k74t2'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_42d96/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_42d96.dir\\build.make CMakeFiles/cmTC_42d96.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-9kqey8'
-        Building CXX object CMakeFiles/cmTC_42d96.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_70533/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_70533.dir\\build.make CMakeFiles/cmTC_70533.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-5k74t2'
+        Building CXX object CMakeFiles/cmTC_70533.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -1687,8 +1662,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_42d96.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_42d96.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\schut\\AppData\\Local\\Temp\\ccnl8WeX.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_70533.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_70533.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\schut\\AppData\\Local\\Temp\\ccBplZlo.s
         GNU C++17 (Rev2, Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1713,14 +1688,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 0ae76c501e8dc149b84d2c95ded0e2f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_42d96.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\schut\\AppData\\Local\\Temp\\ccnl8WeX.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_70533.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\schut\\AppData\\Local\\Temp\\ccBplZlo.s
         GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_42d96.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_42d96.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_70533.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_70533.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe
@@ -1731,16 +1706,16 @@ events:
         gcc version 14.2.0 (Rev2, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42d96.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_42d96.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccSszjlc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_42d96.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_42d96.dir/objects.a --no-whole-archive --out-implib libcmTC_42d96.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70533.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_70533.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccf85y7M.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_70533.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_70533.dir/objects.a --no-whole-archive --out-implib libcmTC_70533.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         collect2 version 14.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccSszjlc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_42d96.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_42d96.dir/objects.a --no-whole-archive --out-implib libcmTC_42d96.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccf85y7M.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_70533.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_70533.dir/objects.a --no-whole-archive --out-implib libcmTC_70533.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o
         GNU ld (GNU Binutils) 2.43.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42d96.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_42d96.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_42d96.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_42d96.dir/objects.a @CMakeFiles\\cmTC_42d96.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_42d96.dir/objects.a -Wl,--no-whole-archive -o cmTC_42d96.exe -Wl,--out-implib,libcmTC_42d96.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-9kqey8'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70533.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_70533.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_70533.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_70533.dir/objects.a @CMakeFiles\\cmTC_70533.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_70533.dir/objects.a -Wl,--no-whole-archive -o cmTC_70533.exe -Wl,--out-implib,libcmTC_70533.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-5k74t2'
         
       exitCode: 0
   -
@@ -1779,13 +1754,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-9kqey8']
+        ignore line: [Change Dir: 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-5k74t2']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_42d96/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_42d96.dir\\build.make CMakeFiles/cmTC_42d96.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-9kqey8']
-        ignore line: [Building CXX object CMakeFiles/cmTC_42d96.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_70533/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_70533.dir\\build.make CMakeFiles/cmTC_70533.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/schut/Documents/Projet_valo/build/CMakeFiles/CMakeScratch/TryCompile-5k74t2']
+        ignore line: [Building CXX object CMakeFiles/cmTC_70533.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1793,8 +1768,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.2.0 (Rev2  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_42d96.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_42d96.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\schut\\AppData\\Local\\Temp\\ccnl8WeX.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_70533.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_70533.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\schut\\AppData\\Local\\Temp\\ccBplZlo.s]
         ignore line: [GNU C++17 (Rev2  Built by MSYS2 project) version 14.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1819,8 +1794,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 0ae76c501e8dc149b84d2c95ded0e2f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_42d96.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\schut\\AppData\\Local\\Temp\\ccnl8WeX.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_70533.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\schut\\AppData\\Local\\Temp\\ccBplZlo.s]
         ignore line: [GNU assembler version 2.43.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.43.1]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -1831,9 +1806,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_42d96.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_42d96.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_42d96.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_70533.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_70533.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_70533.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe]
@@ -1851,13 +1826,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42d96.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_42d96.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccSszjlc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_42d96.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_42d96.dir/objects.a --no-whole-archive --out-implib libcmTC_42d96.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_70533.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_70533.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccf85y7M.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_70533.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_70533.dir/objects.a --no-whole-archive --out-implib libcmTC_70533.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccSszjlc.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccf85y7M.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1879,7 +1854,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_42d96.exe] ==> ignore
+          arg [cmTC_70533.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0]
@@ -1890,10 +1865,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_42d96.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_70533.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_42d96.dll.a] ==> ignore
+          arg [libcmTC_70533.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1919,7 +1894,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         ignore line: [collect2 version 14.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccSszjlc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_42d96.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_42d96.dir/objects.a --no-whole-archive --out-implib libcmTC_42d96.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\schut\\AppData\\Local\\Temp\\ccf85y7M.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_70533.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_70533.dir/objects.a --no-whole-archive --out-implib libcmTC_70533.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]

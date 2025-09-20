@@ -2,6 +2,29 @@
 
 A C++ library for valuing financial products, including options, bonds, and other derivatives.
 
+## Quick Start (Windows)
+
+### Environment Setup
+Required tools are pre-installed:
+- ✅ CMake 4.1.1
+- ✅ C++ Compiler (LLVM MinGW g++ 14.2.0)
+
+### Build and Run
+
+```cmd
+# Build the library
+.\build.bat
+
+# Run the example
+.\build.bat example
+
+# Run tests
+.\build.bat test
+
+# Clean build files
+.\build.bat clean
+```
+
 ## Features
 
 - **European and American Options**: Pricing using Black-Scholes, Binomial Trees, and Monte Carlo simulations
@@ -140,6 +163,20 @@ Pour ajouter un nouvel instrument:
 1. Héritez de `Instrument`
 2. Implémentez la méthode `getPrice()` pure virtuelle
 3. Ajoutez les paramètres spécifiques dans le constructeur
+
+## Project Structure
+
+```
+Projet_valo/
+├── include/           # Header files
+├── src/              # Source files
+├── tests/            # Unit tests
+├── build/            # Build artifacts (generated)
+├── CMakeLists.txt    # CMake configuration
+├── build.bat         # Build script (Windows)
+├── example.cpp       # Usage example
+└── README.md         # Documentation
+```
 
 ## License
 

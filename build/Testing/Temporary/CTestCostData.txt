@@ -1,2 +1,2 @@
-FinancialTests 2 0.0160886
+FinancialTests 1 0.0849324
 ---
