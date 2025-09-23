@@ -164,6 +164,40 @@ Pour ajouter un nouvel instrument:
 2. Implémentez la méthode `getPrice()` pure virtuelle
 3. Ajoutez les paramètres spécifiques dans le constructeur
 
+## Qt6 Graphical User Interface (Optional)
+
+The project supports a Qt6-based graphical user interface for an enhanced user experience.
+
+### Installing Qt6
+
+**Using aqtinstall (Recommended):**
+```cmd
+# Install aqtinstall if not already installed
+winget install miurahr.aqtinstall
+
+# Install Qt6.5.3 for Windows desktop
+aqt install-qt windows desktop 6.5.3 win64_mingw
+```
+
+**Manual Installation:**
+- Download Qt6 from https://www.qt.io/download
+- Install Qt Creator or Qt6 libraries
+- Ensure Qt6 is in your PATH or set `CMAKE_PREFIX_PATH`
+
+### Building the GUI
+
+```cmd
+# Build with Qt6 GUI support
+.\build.bat gui
+```
+
+### GUI Features
+
+- **Tabbed Interface**: Separate tabs for European options, American options, Monte Carlo, and About
+- **Real-time Calculations**: Instant pricing and Greeks computation
+- **Input Validation**: Automatic validation of numerical inputs
+- **Professional UI**: Modern interface with proper styling and error handling
+
 ## Project Structure
 
 ```
