@@ -1,10 +1,14 @@
 file(REMOVE_RECURSE
   "CMakeFiles/financial_valuation.dir/src/american_option.cpp.obj"
   "CMakeFiles/financial_valuation.dir/src/american_option.cpp.obj.d"
+  "CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj"
+  "CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj.d"
   "CMakeFiles/financial_valuation.dir/src/binomial_tree.cpp.obj"
   "CMakeFiles/financial_valuation.dir/src/binomial_tree.cpp.obj.d"
   "CMakeFiles/financial_valuation.dir/src/black_scholes.cpp.obj"
   "CMakeFiles/financial_valuation.dir/src/black_scholes.cpp.obj.d"
+  "CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj"
+  "CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj.d"
   "CMakeFiles/financial_valuation.dir/src/european_option.cpp.obj"
   "CMakeFiles/financial_valuation.dir/src/european_option.cpp.obj.d"
   "CMakeFiles/financial_valuation.dir/src/greeks.cpp.obj"
@@ -15,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/financial_valuation.dir/src/monte_carlo.cpp.obj.d"
   "CMakeFiles/financial_valuation.dir/src/option.cpp.obj"
   "CMakeFiles/financial_valuation.dir/src/option.cpp.obj.d"
+  "CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj"
+  "CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj.d"
   "libfinancial_valuation.a"
   "libfinancial_valuation.pdb"
 )

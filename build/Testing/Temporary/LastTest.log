@@ -1,10 +1,10 @@
-Start testing: Sep 20 09:06 Paris, Madrid (heure d’été)
+Start testing: Sep 23 21:20 Paris, Madrid (heure d’été)
 ----------------------------------------------------------
 1/1 Testing: FinancialTests
 1/1 Test: FinancialTests
 Command: "C:/Users/schut/Documents/Projet_valo/build/tests/financial_tests.exe"
 Directory: C:/Users/schut/Documents/Projet_valo/build/tests
-"FinancialTests" start time: Sep 20 09:06 Paris, Madrid (heure d’été)
+"FinancialTests" start time: Sep 23 21:20 Paris, Madrid (heure d’été)
 Output:
 ----------------------------------------------------------
 === ExÃ©cution de tous les tests ===
@@ -28,8 +28,8 @@ Binomial Put Price: 6.96209
 âœ“ Tests Binomial OK
 
 Tests Monte Carlo...
-Monte Carlo Call Price: 10.6257
-Monte Carlo Put Price: 5.74438
+Monte Carlo Call Price: 10.3977
+Monte Carlo Put Price: 5.41975
 âœ“ Tests Monte Carlo OK
 
 Tests Greeks...
@@ -37,13 +37,45 @@ Delta: 0.636831, Gamma: 0.018762, Theta: -6.41403, Vega: 37.524, Rho: 53.2325
 Delta: -0.363169, Gamma: 0.018762, Theta: -1.65788, Vega: 37.524, Rho: -41.8905
 âœ“ Tests Greeks OK
 
+Tests Produits CollatÃ©ralisÃ©s...
+Expected Loss: 0.015
+VaR 95%: 0
+Tranche Prices: 134553 201642 234428 
+Total CDO Price: 570624
+Collateralized Product test passed!
+Expected Loss (high default prob): 0.03
+Equity tranche price: 124836
+Senior tranche price: 227418
+Tranche mechanics test passed!
+âœ“ Tests Produits CollatÃ©ralisÃ©s OK
+
+Tests Total Return Instruments...
+=== Testing Total Return Swap ===
+TRS Price: -45007.2
+Expected Total Return: 0.06
+Swap Rate: 0.04
+Notional: 1e+06
+Number of cash flows: 8
+Total Return Swap tests passed!
+=== Testing Basket Total Return Forward ===
+Basket TRF Price: 93309.5
+Basket Total Return: 0.0834375
+Forward Rate: 0.035
+Basket Value: 111
+Asset Weights: 0.5 0.3 0.2 
+Basket Total Return Forward tests passed!
+=== Testing Basket TRF Edge Cases ===
+Single Asset TRF Price: 25601.9
+Edge case tests passed!
+âœ“ Tests Total Return Instruments OK
+
 === Tous les tests sont passÃ©s ! ===
 <end of output>
-Test time =   0.08 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Passed.
-"FinancialTests" end time: Sep 20 09:06 Paris, Madrid (heure d’été)
+"FinancialTests" end time: Sep 23 21:20 Paris, Madrid (heure d’été)
 "FinancialTests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Sep 20 09:06 Paris, Madrid (heure d’été)
+End testing: Sep 23 21:20 Paris, Madrid (heure d’été)

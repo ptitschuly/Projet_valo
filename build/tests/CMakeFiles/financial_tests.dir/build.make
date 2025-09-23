@@ -161,6 +161,36 @@ tests/CMakeFiles/financial_tests.dir/test_greeks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/financial_tests.dir/test_greeks.cpp.s"
 	cd /d C:\Users\schut\Documents\Projet_valo\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\schut\Documents\Projet_valo\tests\test_greeks.cpp -o CMakeFiles\financial_tests.dir\test_greeks.cpp.s
 
+tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj: tests/CMakeFiles/financial_tests.dir/flags.make
+tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj: tests/CMakeFiles/financial_tests.dir/includes_CXX.rsp
+tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj: C:/Users/schut/Documents/Projet_valo/tests/test_collateralized.cpp
+tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj: tests/CMakeFiles/financial_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj"
+	cd /d C:\Users\schut\Documents\Projet_valo\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj -MF CMakeFiles\financial_tests.dir\test_collateralized.cpp.obj.d -o CMakeFiles\financial_tests.dir\test_collateralized.cpp.obj -c C:\Users\schut\Documents\Projet_valo\tests\test_collateralized.cpp
+
+tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/financial_tests.dir/test_collateralized.cpp.i"
+	cd /d C:\Users\schut\Documents\Projet_valo\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\schut\Documents\Projet_valo\tests\test_collateralized.cpp > CMakeFiles\financial_tests.dir\test_collateralized.cpp.i
+
+tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/financial_tests.dir/test_collateralized.cpp.s"
+	cd /d C:\Users\schut\Documents\Projet_valo\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\schut\Documents\Projet_valo\tests\test_collateralized.cpp -o CMakeFiles\financial_tests.dir\test_collateralized.cpp.s
+
+tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj: tests/CMakeFiles/financial_tests.dir/flags.make
+tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj: tests/CMakeFiles/financial_tests.dir/includes_CXX.rsp
+tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj: C:/Users/schut/Documents/Projet_valo/tests/test_total_return_instruments.cpp
+tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj: tests/CMakeFiles/financial_tests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj"
+	cd /d C:\Users\schut\Documents\Projet_valo\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj -MF CMakeFiles\financial_tests.dir\test_total_return_instruments.cpp.obj.d -o CMakeFiles\financial_tests.dir\test_total_return_instruments.cpp.obj -c C:\Users\schut\Documents\Projet_valo\tests\test_total_return_instruments.cpp
+
+tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.i"
+	cd /d C:\Users\schut\Documents\Projet_valo\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\schut\Documents\Projet_valo\tests\test_total_return_instruments.cpp > CMakeFiles\financial_tests.dir\test_total_return_instruments.cpp.i
+
+tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.s"
+	cd /d C:\Users\schut\Documents\Projet_valo\build\tests && C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\schut\Documents\Projet_valo\tests\test_total_return_instruments.cpp -o CMakeFiles\financial_tests.dir\test_total_return_instruments.cpp.s
+
 # Object files for target financial_tests
 financial_tests_OBJECTS = \
 "CMakeFiles/financial_tests.dir/test_main.cpp.obj" \
@@ -168,7 +198,9 @@ financial_tests_OBJECTS = \
 "CMakeFiles/financial_tests.dir/test_black_scholes.cpp.obj" \
 "CMakeFiles/financial_tests.dir/test_binomial.cpp.obj" \
 "CMakeFiles/financial_tests.dir/test_monte_carlo.cpp.obj" \
-"CMakeFiles/financial_tests.dir/test_greeks.cpp.obj"
+"CMakeFiles/financial_tests.dir/test_greeks.cpp.obj" \
+"CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj" \
+"CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj"
 
 # External object files for target financial_tests
 financial_tests_EXTERNAL_OBJECTS =
@@ -179,12 +211,14 @@ tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/test_black_schol
 tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/test_binomial.cpp.obj
 tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/test_monte_carlo.cpp.obj
 tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/test_greeks.cpp.obj
+tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj
+tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj
 tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/build.make
 tests/financial_tests.exe: libfinancial_valuation.a
 tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/linkLibs.rsp
 tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/objects1.rsp
 tests/financial_tests.exe: tests/CMakeFiles/financial_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable financial_tests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable financial_tests.exe"
 	cd /d C:\Users\schut\Documents\Projet_valo\build\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\financial_tests.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

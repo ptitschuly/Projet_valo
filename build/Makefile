@@ -257,6 +257,30 @@ src/american_option.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/american_option.cpp.s
 .PHONY : src/american_option.cpp.s
 
+src/basket_total_return_forward.obj: src/basket_total_return_forward.cpp.obj
+.PHONY : src/basket_total_return_forward.obj
+
+# target to build an object file
+src/basket_total_return_forward.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj
+.PHONY : src/basket_total_return_forward.cpp.obj
+
+src/basket_total_return_forward.i: src/basket_total_return_forward.cpp.i
+.PHONY : src/basket_total_return_forward.i
+
+# target to preprocess a source file
+src/basket_total_return_forward.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.i
+.PHONY : src/basket_total_return_forward.cpp.i
+
+src/basket_total_return_forward.s: src/basket_total_return_forward.cpp.s
+.PHONY : src/basket_total_return_forward.s
+
+# target to generate assembly for a file
+src/basket_total_return_forward.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.s
+.PHONY : src/basket_total_return_forward.cpp.s
+
 src/binomial_tree.obj: src/binomial_tree.cpp.obj
 .PHONY : src/binomial_tree.obj
 
@@ -304,6 +328,30 @@ src/black_scholes.s: src/black_scholes.cpp.s
 src/black_scholes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/black_scholes.cpp.s
 .PHONY : src/black_scholes.cpp.s
+
+src/collateralized_product.obj: src/collateralized_product.cpp.obj
+.PHONY : src/collateralized_product.obj
+
+# target to build an object file
+src/collateralized_product.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj
+.PHONY : src/collateralized_product.cpp.obj
+
+src/collateralized_product.i: src/collateralized_product.cpp.i
+.PHONY : src/collateralized_product.i
+
+# target to preprocess a source file
+src/collateralized_product.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.i
+.PHONY : src/collateralized_product.cpp.i
+
+src/collateralized_product.s: src/collateralized_product.cpp.s
+.PHONY : src/collateralized_product.s
+
+# target to generate assembly for a file
+src/collateralized_product.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.s
+.PHONY : src/collateralized_product.cpp.s
 
 src/european_option.obj: src/european_option.cpp.obj
 .PHONY : src/european_option.obj
@@ -425,6 +473,30 @@ src/option.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/option.cpp.s
 .PHONY : src/option.cpp.s
 
+src/total_return_swap.obj: src/total_return_swap.cpp.obj
+.PHONY : src/total_return_swap.obj
+
+# target to build an object file
+src/total_return_swap.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj
+.PHONY : src/total_return_swap.cpp.obj
+
+src/total_return_swap.i: src/total_return_swap.cpp.i
+.PHONY : src/total_return_swap.i
+
+# target to preprocess a source file
+src/total_return_swap.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.i
+.PHONY : src/total_return_swap.cpp.i
+
+src/total_return_swap.s: src/total_return_swap.cpp.s
+.PHONY : src/total_return_swap.s
+
+# target to generate assembly for a file
+src/total_return_swap.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\financial_valuation.dir\build.make CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.s
+.PHONY : src/total_return_swap.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -447,12 +519,18 @@ help:
 	@echo ... src/american_option.obj
 	@echo ... src/american_option.i
 	@echo ... src/american_option.s
+	@echo ... src/basket_total_return_forward.obj
+	@echo ... src/basket_total_return_forward.i
+	@echo ... src/basket_total_return_forward.s
 	@echo ... src/binomial_tree.obj
 	@echo ... src/binomial_tree.i
 	@echo ... src/binomial_tree.s
 	@echo ... src/black_scholes.obj
 	@echo ... src/black_scholes.i
 	@echo ... src/black_scholes.s
+	@echo ... src/collateralized_product.obj
+	@echo ... src/collateralized_product.i
+	@echo ... src/collateralized_product.s
 	@echo ... src/european_option.obj
 	@echo ... src/european_option.i
 	@echo ... src/european_option.s
@@ -468,6 +546,9 @@ help:
 	@echo ... src/option.obj
 	@echo ... src/option.i
 	@echo ... src/option.s
+	@echo ... src/total_return_swap.obj
+	@echo ... src/total_return_swap.i
+	@echo ... src/total_return_swap.s
 .PHONY : help
 
 

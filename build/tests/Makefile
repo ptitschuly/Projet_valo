@@ -232,6 +232,30 @@ test_black_scholes.cpp.s:
 	cd /d C:\Users\schut\Documents\Projet_valo\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\financial_tests.dir\build.make tests/CMakeFiles/financial_tests.dir/test_black_scholes.cpp.s
 .PHONY : test_black_scholes.cpp.s
 
+test_collateralized.obj: test_collateralized.cpp.obj
+.PHONY : test_collateralized.obj
+
+# target to build an object file
+test_collateralized.cpp.obj:
+	cd /d C:\Users\schut\Documents\Projet_valo\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\financial_tests.dir\build.make tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.obj
+.PHONY : test_collateralized.cpp.obj
+
+test_collateralized.i: test_collateralized.cpp.i
+.PHONY : test_collateralized.i
+
+# target to preprocess a source file
+test_collateralized.cpp.i:
+	cd /d C:\Users\schut\Documents\Projet_valo\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\financial_tests.dir\build.make tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.i
+.PHONY : test_collateralized.cpp.i
+
+test_collateralized.s: test_collateralized.cpp.s
+.PHONY : test_collateralized.s
+
+# target to generate assembly for a file
+test_collateralized.cpp.s:
+	cd /d C:\Users\schut\Documents\Projet_valo\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\financial_tests.dir\build.make tests/CMakeFiles/financial_tests.dir/test_collateralized.cpp.s
+.PHONY : test_collateralized.cpp.s
+
 test_greeks.obj: test_greeks.cpp.obj
 .PHONY : test_greeks.obj
 
@@ -328,6 +352,30 @@ test_options.cpp.s:
 	cd /d C:\Users\schut\Documents\Projet_valo\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\financial_tests.dir\build.make tests/CMakeFiles/financial_tests.dir/test_options.cpp.s
 .PHONY : test_options.cpp.s
 
+test_total_return_instruments.obj: test_total_return_instruments.cpp.obj
+.PHONY : test_total_return_instruments.obj
+
+# target to build an object file
+test_total_return_instruments.cpp.obj:
+	cd /d C:\Users\schut\Documents\Projet_valo\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\financial_tests.dir\build.make tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.obj
+.PHONY : test_total_return_instruments.cpp.obj
+
+test_total_return_instruments.i: test_total_return_instruments.cpp.i
+.PHONY : test_total_return_instruments.i
+
+# target to preprocess a source file
+test_total_return_instruments.cpp.i:
+	cd /d C:\Users\schut\Documents\Projet_valo\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\financial_tests.dir\build.make tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.i
+.PHONY : test_total_return_instruments.cpp.i
+
+test_total_return_instruments.s: test_total_return_instruments.cpp.s
+.PHONY : test_total_return_instruments.s
+
+# target to generate assembly for a file
+test_total_return_instruments.cpp.s:
+	cd /d C:\Users\schut\Documents\Projet_valo\build && $(MAKE) $(MAKESILENT) -f tests\CMakeFiles\financial_tests.dir\build.make tests/CMakeFiles/financial_tests.dir/test_total_return_instruments.cpp.s
+.PHONY : test_total_return_instruments.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -348,6 +396,9 @@ help:
 	@echo ... test_black_scholes.obj
 	@echo ... test_black_scholes.i
 	@echo ... test_black_scholes.s
+	@echo ... test_collateralized.obj
+	@echo ... test_collateralized.i
+	@echo ... test_collateralized.s
 	@echo ... test_greeks.obj
 	@echo ... test_greeks.i
 	@echo ... test_greeks.s
@@ -360,6 +411,9 @@ help:
 	@echo ... test_options.obj
 	@echo ... test_options.i
 	@echo ... test_options.s
+	@echo ... test_total_return_instruments.obj
+	@echo ... test_total_return_instruments.i
+	@echo ... test_total_return_instruments.s
 .PHONY : help
 
 

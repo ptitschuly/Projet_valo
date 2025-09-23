@@ -205,4 +205,7 @@ CMakeFiles/example.dir/example.cpp.obj: \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/random.tcc \
  C:/msys64/ucrt64/include/c++/14.2.0/numeric \
  C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_numeric.h \
- C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_numeric_defs.h
+ C:/msys64/ucrt64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
+ C:/Users/schut/Documents/Projet_valo/include/collateralized_product.h \
+ C:/Users/schut/Documents/Projet_valo/include/total_return_swap.h \
+ C:/Users/schut/Documents/Projet_valo/include/basket_total_return_forward.h

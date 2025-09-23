@@ -8,6 +8,8 @@ add_executable(financial_tests
     test_binomial.cpp
     test_monte_carlo.cpp
     test_greeks.cpp
+    test_collateralized.cpp
+    test_total_return_instruments.cpp
 )
 
 target_link_libraries(financial_tests financial_valuation)

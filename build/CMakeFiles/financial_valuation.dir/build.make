@@ -191,6 +191,51 @@ CMakeFiles/financial_valuation.dir/src/greeks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/financial_valuation.dir/src/greeks.cpp.s"
 	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\schut\Documents\Projet_valo\src\greeks.cpp -o CMakeFiles\financial_valuation.dir\src\greeks.cpp.s
 
+CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj: CMakeFiles/financial_valuation.dir/flags.make
+CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj: CMakeFiles/financial_valuation.dir/includes_CXX.rsp
+CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj: C:/Users/schut/Documents/Projet_valo/src/collateralized_product.cpp
+CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj: CMakeFiles/financial_valuation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj -MF CMakeFiles\financial_valuation.dir\src\collateralized_product.cpp.obj.d -o CMakeFiles\financial_valuation.dir\src\collateralized_product.cpp.obj -c C:\Users\schut\Documents\Projet_valo\src\collateralized_product.cpp
+
+CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\schut\Documents\Projet_valo\src\collateralized_product.cpp > CMakeFiles\financial_valuation.dir\src\collateralized_product.cpp.i
+
+CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\schut\Documents\Projet_valo\src\collateralized_product.cpp -o CMakeFiles\financial_valuation.dir\src\collateralized_product.cpp.s
+
+CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj: CMakeFiles/financial_valuation.dir/flags.make
+CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj: CMakeFiles/financial_valuation.dir/includes_CXX.rsp
+CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj: C:/Users/schut/Documents/Projet_valo/src/total_return_swap.cpp
+CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj: CMakeFiles/financial_valuation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj -MF CMakeFiles\financial_valuation.dir\src\total_return_swap.cpp.obj.d -o CMakeFiles\financial_valuation.dir\src\total_return_swap.cpp.obj -c C:\Users\schut\Documents\Projet_valo\src\total_return_swap.cpp
+
+CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\schut\Documents\Projet_valo\src\total_return_swap.cpp > CMakeFiles\financial_valuation.dir\src\total_return_swap.cpp.i
+
+CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\schut\Documents\Projet_valo\src\total_return_swap.cpp -o CMakeFiles\financial_valuation.dir\src\total_return_swap.cpp.s
+
+CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj: CMakeFiles/financial_valuation.dir/flags.make
+CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj: CMakeFiles/financial_valuation.dir/includes_CXX.rsp
+CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj: C:/Users/schut/Documents/Projet_valo/src/basket_total_return_forward.cpp
+CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj: CMakeFiles/financial_valuation.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj -MF CMakeFiles\financial_valuation.dir\src\basket_total_return_forward.cpp.obj.d -o CMakeFiles\financial_valuation.dir\src\basket_total_return_forward.cpp.obj -c C:\Users\schut\Documents\Projet_valo\src\basket_total_return_forward.cpp
+
+CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.i"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\schut\Documents\Projet_valo\src\basket_total_return_forward.cpp > CMakeFiles\financial_valuation.dir\src\basket_total_return_forward.cpp.i
+
+CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.s"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\schut\Documents\Projet_valo\src\basket_total_return_forward.cpp -o CMakeFiles\financial_valuation.dir\src\basket_total_return_forward.cpp.s
+
 # Object files for target financial_valuation
 financial_valuation_OBJECTS = \
 "CMakeFiles/financial_valuation.dir/src/instrument.cpp.obj" \
@@ -200,7 +245,10 @@ financial_valuation_OBJECTS = \
 "CMakeFiles/financial_valuation.dir/src/black_scholes.cpp.obj" \
 "CMakeFiles/financial_valuation.dir/src/binomial_tree.cpp.obj" \
 "CMakeFiles/financial_valuation.dir/src/monte_carlo.cpp.obj" \
-"CMakeFiles/financial_valuation.dir/src/greeks.cpp.obj"
+"CMakeFiles/financial_valuation.dir/src/greeks.cpp.obj" \
+"CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj" \
+"CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj" \
+"CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj"
 
 # External object files for target financial_valuation
 financial_valuation_EXTERNAL_OBJECTS =
@@ -213,9 +261,12 @@ libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/src/black_scholes.c
 libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/src/binomial_tree.cpp.obj
 libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/src/monte_carlo.cpp.obj
 libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/src/greeks.cpp.obj
+libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/src/collateralized_product.cpp.obj
+libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/src/total_return_swap.cpp.obj
+libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/src/basket_total_return_forward.cpp.obj
 libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/build.make
 libfinancial_valuation.a: CMakeFiles/financial_valuation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libfinancial_valuation.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\schut\Documents\Projet_valo\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX static library libfinancial_valuation.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\financial_valuation.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\financial_valuation.dir\link.txt --verbose=$(VERBOSE)
 

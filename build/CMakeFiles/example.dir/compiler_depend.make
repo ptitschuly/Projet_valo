@@ -3,11 +3,14 @@
 
 CMakeFiles/example.dir/example.cpp.obj: C:/Users/schut/Documents/Projet_valo/example.cpp \
   C:/Users/schut/Documents/Projet_valo/include/american_option.h \
+  C:/Users/schut/Documents/Projet_valo/include/basket_total_return_forward.h \
+  C:/Users/schut/Documents/Projet_valo/include/collateralized_product.h \
   C:/Users/schut/Documents/Projet_valo/include/european_option.h \
   C:/Users/schut/Documents/Projet_valo/include/greeks.h \
   C:/Users/schut/Documents/Projet_valo/include/instrument.h \
   C:/Users/schut/Documents/Projet_valo/include/monte_carlo.h \
   C:/Users/schut/Documents/Projet_valo/include/option.h \
+  C:/Users/schut/Documents/Projet_valo/include/total_return_swap.h \
   C:/msys64/ucrt64/include/_mingw.h \
   C:/msys64/ucrt64/include/_mingw_mac.h \
   C:/msys64/ucrt64/include/_mingw_off_t.h \
@@ -218,6 +221,8 @@ CMakeFiles/example.dir/example.cpp.obj: C:/Users/schut/Documents/Projet_valo/exa
   C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h
 
 
+C:/Users/schut/Documents/Projet_valo/include/basket_total_return_forward.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/enable_special_members.h:
 
 C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h:
@@ -228,21 +233,13 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/cxxabi_forced.h:
 
 C:/Users/schut/Documents/Projet_valo/include/american_option.h:
 
-C:/msys64/ucrt64/include/c++/14.2.0/bit:
-
-C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h:
-
-C:/msys64/ucrt64/include/_mingw.h:
+C:/Users/schut/Documents/Projet_valo/include/collateralized_product.h:
 
 C:/Users/schut/Documents/Projet_valo/include/european_option.h:
-
-C:/Users/schut/Documents/Projet_valo/include/option.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/memory_resource.h:
 
 C:/Users/schut/Documents/Projet_valo/include/monte_carlo.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/ext/alloc_traits.h:
 
@@ -255,6 +252,16 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/utility.h:
 C:/Users/schut/Documents/Projet_valo/include/greeks.h:
 
 C:/Users/schut/Documents/Projet_valo/include/instrument.h:
+
+C:/Users/schut/Documents/Projet_valo/include/option.h:
+
+C:/Users/schut/Documents/Projet_valo/include/total_return_swap.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bit:
+
+C:/msys64/ucrt64/include/c++/14.2.0/ext/numeric_traits.h:
+
+C:/msys64/ucrt64/include/_mingw.h:
 
 C:/msys64/ucrt64/include/_mingw_mac.h:
 
@@ -305,8 +312,6 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/locale_facets.tcc:
 C:/msys64/ucrt64/include/c++/14.2.0/bits/ostream_insert.h:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/allocator.h:
-
-C:/msys64/ucrt64/include/c++/14.2.0/bits/random.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/stl_construct.h:
 
@@ -384,7 +389,11 @@ C:/msys64/ucrt64/include/c++/14.2.0/bits/string_view.tcc:
 
 C:/msys64/ucrt64/include/c++/14.2.0/bits/postypes.h:
 
+C:/msys64/ucrt64/include/c++/14.2.0/bits/ptr_traits.h:
+
 C:/msys64/ucrt64/include/c++/14.2.0/bits/random.h:
+
+C:/msys64/ucrt64/include/c++/14.2.0/bits/random.tcc:
 
 C:/msys64/ucrt64/include/stdio.h:
 

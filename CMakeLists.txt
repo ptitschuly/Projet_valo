@@ -17,6 +17,9 @@ add_library(financial_valuation STATIC
     src/binomial_tree.cpp
     src/monte_carlo.cpp
     src/greeks.cpp
+    src/collateralized_product.cpp
+    src/total_return_swap.cpp
+    src/basket_total_return_forward.cpp
 )
 
 # Include directories for the library

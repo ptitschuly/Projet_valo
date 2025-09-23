@@ -19,6 +19,13 @@ void testMonteCarloPut();
 void testGreeksCall();
 void testGreeksPut();
 
+void testCollateralizedProduct();
+void testTrancheMechanics();
+
+void testTotalReturnSwap();
+void testBasketTotalReturnForward();
+void testBasketTotalReturnForwardEdgeCases();
+
 int main() {
     std::cout << "=== Exécution de tous les tests ===\n" << std::endl;
 
@@ -50,6 +57,17 @@ int main() {
         testGreeksCall();
         testGreeksPut();
         std::cout << "✓ Tests Greeks OK\n" << std::endl;
+
+        std::cout << "Tests Produits Collatéralisés..." << std::endl;
+        testCollateralizedProduct();
+        testTrancheMechanics();
+        std::cout << "✓ Tests Produits Collatéralisés OK\n" << std::endl;
+
+        std::cout << "Tests Total Return Instruments..." << std::endl;
+        testTotalReturnSwap();
+        testBasketTotalReturnForward();
+        testBasketTotalReturnForwardEdgeCases();
+        std::cout << "✓ Tests Total Return Instruments OK\n" << std::endl;
 
         std::cout << "=== Tous les tests sont passés ! ===" << std::endl;
         return 0;
