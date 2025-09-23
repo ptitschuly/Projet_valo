@@ -1,0 +1,31 @@
+# Qt6 installation directory
+6.5.3/
+
+# Build directories
+build/
+cmake-build-*/
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+aqtinstall.log
+
+# Executables and binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test files
+test_input.txt
+test_console.bat
